@@ -25,7 +25,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
       - name: Init NPM
-        run: npm init
+        run: npm i
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
