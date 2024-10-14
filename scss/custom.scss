@@ -1,1 +1,10 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
+$primary: #e40066;
+$secondary: #70798c;
+$success: #4fb477;
+$info: #00bfb2;
+$warning: #fb8b24;
+$danger: #dd1c1a;
+$light: #f5f1ed;
+$dark: #252323;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
