@@ -26,11 +26,13 @@ jobs:
         uses: actions/setup-node@v4
       - name: Install Node Packages
         run: npm i
+      - name: Make CSS folder for SASS
+        run: mkdir -vp ./css
       - name: Compile SASS
         uses: gha-utilities/sass-build@v0.6.0
         with:
           source: ./scss/custom.scss
-          destination: ./csss/custom.css
+          destination: ./css/custom.css
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
