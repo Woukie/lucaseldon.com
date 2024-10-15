@@ -13,15 +13,20 @@
   <nav class="navbar navbar-expand-lg bg-body-tertiary shadow">
     <div class="container">
       <a class="navbar-brand" href="/">Lucas Eldon</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse d-flex justify-content-end" id="nav">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="/">About</a>
-          <a class="nav-link" href="/contact">Contact</a>
-          <a class="nav-link" href="/projects">Projects</a>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav d-flex justify-content-end">
+          <li>
+            <a class="nav-link active" href="/">About</a>
+          </li>
+          <li>
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+          <li>
+            <a class="nav-link" aria-current="page" href="/projects">Projects</a>
+          </li>
       </div>
     </div>
   </nav>
@@ -30,6 +35,7 @@
     <p>Hi, I'm a computer science student pursuing a BSc at Royal Holloway (graduating 2026) and this is my website.</p>
     <p>Currently taking a year out to look for internships and freelance work while I build my own startups.</p>
   </div>
+
   <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
