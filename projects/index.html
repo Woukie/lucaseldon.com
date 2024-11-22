@@ -4,7 +4,7 @@
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Lucas Eldon | Project</title>
+  <title>Lucas Eldon | Projects</title>
   <link href="/css/custom.css" rel="stylesheet">
   <meta name='viewport' content='width=device-width, initial-scale=1'>
 </head>
@@ -32,60 +32,40 @@
   </nav>
   <div class="container mt-3">
     <h1>Projects</h1>
-    <p>While I'd love to list off every project I've ever worked on, this page would just be too long. Not to mention I stop being proud of my work within a month of completing because every project is bigger than the last. That being said, you can view all my public projects on my <a href="https://github.com/woukie">GitHub</a>.</p>
-    <h2>MealCoach</h2>
-    <img src="/images/MealCoach render 2.png" class="pe-3" alt="Rendered phones with logo" style="float:left;height:220px;">
+    <p>While I'd love to list off every project I've ever worked on, this page would be too long. You can view all my public projects on my <a href="https://github.com/woukie">GitHub</a>.</p>
+    <h2>MealCoach AI</h2>
+    <img src="/images/MealCoach render 2.png" class="pe-3" alt="Rendered phones with logo" style="float:left;height:155px;">
     <p>
-      This is my latest project and my first with actual funding. MealCoach is an advanced food tracking app that leverages AI to record your food intake and analyze your diet against your personal goals. I'm particularly excited about this project as I'm soon to become a shareholder of the company that's contracting me.
+      This is my latest project and my first with actual funding. MealCoach is an advanced food tracking app that leverages AI to record your food intake and analyze your diet against your personal goals. I'm particularly excited about this project as I'm soon to become a shareholder of the company.
     </p>
     <p>
-      Developing MealCoach went beyond just building an app and backend. Since this is a real-world product, it involved creating a whole ecosystem of technologies. The project consists of a landing page, administration tools for account management, hosting infrastructure, mail systems, security, and even required legal knowledge.
+      Developing MealCoach went beyond just building an app and backend. Since this is a real-world product, it involved creating a whole ecosystem. The project consists of a landing page, administration tools for account management, hosting infrastructure, mail systems, security, and even required legal knowledge.
     </p>
-    <p>MealCoach is expected for a full release within the next two weeks!</p>
-    <p>See technical details <a href="https://github.com/Health-Hub-App">here</a>.</p>
+    <p>MealCoach is fully realeased on <a href="https://apps.apple.com/us/app/mealcoach-ai/id6703999460">Apple</a> and <a href="https://play.google.com/store/apps/details?id=net.mealcoach.app">Android</a>!</p>
 
     <h1>Next Projects</h1>
-    <p>Here is a list of projects I want to make.</p>
-    <h2>Federated Communications Platform</h2>
-    <p>
-      I want to create a communications platform matching the features of Discord whilst democratizing hosting and prioritizing privacy
-    </p>
-    <div class="accordion">
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#fedRequirements" aria-expanded="true" aria-controls="fedRequirements">
-            Requirements
-          </button>
-        </h2>
-        <div id="fedRequirements" class="accordion-collapse collapse show">
-          <ul>
-            <li>Users can host their own servers much like how team-speak works, significantly reducing hosting costs. However, due to usability, I will have to host small servers myself in order to support group chat and dm style communication</li>
-            <li>Browser indexing. With the rise of good SEO, search engines have become more useless than ever. By letting search engines index threads from configured servers, we can inject useful search results into the internet again. This feature also means that servers will have a public browser-accessible web-interface that doesn't require authentication to view</li>
-            <li>Merge group-chats and DMs into servers. Servers should be flexible enough to support many styles of communication through the way they are set up. In other words, users start with a 2 person server that acts like a dm, to ticking some boxes that change the UI to look like a server, to ticking some more boxes and becoming a fully-fledged internet-searchable community server</li>
-            <li>Democratized authentication, along-side our own auth server for account management. Authentication servers can be hosted by everyone, and server owners can whitelist specific auth servers. Even if we go down, the platform can live on</li>
-            <li>Free and open-source. If someone wants a feature, they can just make it</li>
-            <li>E2E encryption for small servers. Obviously this would be useless for public servers, but group chat and dm sized servers could use this</li>
-          </ul>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#fedAnti" aria-expanded="true" aria-controls="fedAnti">
-            Anti-reasons
-          </button>
-        </h2>
-        <div id="fedAnti" class="accordion-collapse collapse show">
-          <ul>
-            <li>Funding, audience. Unless I get these, this project will never happen</li>
-            <li>Manual server-hosting is not easy, nor is it geared towards the average user that just wants a few group chats. We'll likely have to host servers ourselves and have server creation happen automatically when a 'message' button is pressed. We would have to force users to host servers themselves (or charge them) once a specific user count is met, which is a bit of a turn-off</li>
-            <li>I haven't decided exactly how communication will function. All I know is that it will be real-time and thread-based. This approach provides us with maximum flexibility when designing a configuration system that supports various communication styles (e.g., channels, Reddit-like, forums, and threads). I haven't finalized the specific implementation details yet</li>
-            <li>No revenue model. I don't plan on having a revenue model immediately (except managed hosting). I may consider cosmetics down the line</li>
-            <li>Idea refinement, need to generate a specification that lays out the features beyond being 'Discord-like'. Moderation, UI, ease of use, role management, notifications, etc..</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
+    <p>A list of projects I want to make.</p>
+    <h2>Communications Platform</h2>
+    <p>Have you ever had to put "reddit" in a search query to get real results? Have you ever given up looking for something because every result is a low quality clickbait article?</p>
+    <p>The rise good SEO has ushered in the destruction of the usable web, and I have a solution.</p>
+    <p>We're building a federated communications platform that allows hosters to <b>index threads in search engines</b>. Our solution consists of the following stand-out features</p>
+    <ul>
+      <li>Host your own server or let us host it for you</li>
+      <li>Complex custom behaviour support. Our <b>in-server IDE</b> lets server owners add custom behaviour to their server <b>LIVE</b></li>
+      <li>We give server owners full <b>control over the HTML</b> of the site</li>
+      <li>
+        Almost any communication style can be achieved through server customisation!
+        <ul>
+          <li>Create a group chat by only showing one thread and modifying the UI</li>
+          <li>Create a Discord-like environment by pining a few threads, labeling them as chat rooms and restricting sub-threads!</li>
+          <li>Some quite complex platforms can be made by allowing the modification of UI and adding scripts to control the behaviour of a server</li>
+          <li>The following configs will be provided for quick setup and learning material: DM, group chat, Discord, Twitter and an Image Board</li>
+        </ul>
+      </li>
+      <li>
+        Server owners can specify what is and isn't indexed. For example, server owners can only expose certain subthreads for search engine indexing, and can even programatically assign visibility of threads with our in-server JS API
+      </li>
+    </ul>
   </div>
 
   <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
